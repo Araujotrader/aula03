@@ -1,0 +1,77 @@
+html * {
+
+    font-family: monospace;
+
+}
+
+
+body {
+
+    background-color: rgba(200, 193, 224, 0.692);
+
+}
+
+#menu {
+
+    background-color: rgb(133, 119, 182) ;
+    margin-bottom: 40px;
+    border-top: 15px solid rgb(80, 54, 97);
+    border-bottom: 15px solid rgb(80, 54, 97);
+
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(5, auto) ;
+    text-align: center;
+    font-size: larger;
+    
+
+}
+
+#menu a {
+
+    color: rgba(57, 10, 90);
+    /* text-decoration: solid; */
+    text-decoration: none;
+    font-size: larger;
+}
+
+#menu :hover{
+
+    background-color: rgba(245, 245, 245);
+    color: rgba(68, 0, 255, 0.527);
+    font-size: xx-large;
+}
+
+.principal {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    text-align: center;
+    padding: 100px;
+    color: rgba(57, 10, 90)
+}
+
+
+.arrumar{
+
+    height: 350px;
+    width: 350px;
+    object-fit: fill;
+}
+
+.rodape {
+    background-color: rgb(133, 119, 182) ;
+    margin-bottom: 30px;
+    border-top: 15px solid rgb(80, 54, 97);
+    border-bottom: 15px solid rgb(80, 54, 97);
+    display: grid;
+    text-align: center;
+}
+
+.rodape a {
+
+    color: whitesmoke;
+    /* text-decoration: solid; */
+    text-decoration: none;
+}
